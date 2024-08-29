@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 0 * * 1"  # 每周一的午夜执行
+    - cron: "1 13 * * *"  # 每周一的午夜执行
 
 jobs:
   build:
