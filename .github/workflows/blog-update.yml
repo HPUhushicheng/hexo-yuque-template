@@ -34,7 +34,7 @@ jobs:
         env:
           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
           PERSONAL_TOKEN: ${{ secrets.TOKEN }}
-          PUBLISH_REPOSITORY: haysalan/haysalan.github.io
+          PUBLISH_REPOSITORY: HPUhushicheng/HPUhushicheng.github.io
         run: |
           chmod +x ./script/*.sh
           ./script/deploy.sh
